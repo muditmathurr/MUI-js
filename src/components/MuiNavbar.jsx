@@ -25,7 +25,7 @@ const MuiNavbar = () => {
   };
 
   return (
-    <AppBar position="static">
+    <AppBar color="error" position="absolute">
       <Toolbar>
         <IconButton size="large" edge="start" color="inherit" aria-label="logo">
           <CatchingPokemonIcon />
