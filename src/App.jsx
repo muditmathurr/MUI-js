@@ -1,6 +1,7 @@
 import "./App.css";
-import MuiImageList from "./components/MuiImageList";
+import MuiNavbar from "./components/MuiNavbar";
 
+// import MuiImageList from "./components/MuiImageList";
 // import MuiAccordion from "./components/MuiAccordion";
 // import MuiCard from "./components/MuiCard";
 // import MuiLayout from "./components/MuiLayout";
@@ -18,7 +19,8 @@ import MuiImageList from "./components/MuiImageList";
 function App() {
   return (
     <>
-      <MuiImageList />
+      <MuiNavbar />
+      {/* <MuiImageList /> */}
       {/* <MuiAccordion /> */}
       {/* <MuiCard /> */}
       {/* <MuiLayout /> */}
