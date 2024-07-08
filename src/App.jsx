@@ -1,6 +1,8 @@
 import "./App.css";
-import MuiNavbar from "./components/MuiNavbar";
 
+import MuiBreadCrumbs from "./components/MuiBreadCrumbs";
+// import MuiLink from "./components/MuiLink";
+// import MuiNavbar from "./components/MuiNavbar";
 // import MuiImageList from "./components/MuiImageList";
 // import MuiAccordion from "./components/MuiAccordion";
 // import MuiCard from "./components/MuiCard";
@@ -19,7 +21,9 @@ import MuiNavbar from "./components/MuiNavbar";
 function App() {
   return (
     <>
-      <MuiNavbar />
+      <MuiBreadCrumbs />
+      {/* <MuiLink /> */}
+      {/* <MuiNavbar /> */}
       {/* <MuiImageList /> */}
       {/* <MuiAccordion /> */}
       {/* <MuiCard /> */}
