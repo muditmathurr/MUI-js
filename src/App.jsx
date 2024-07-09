@@ -1,4 +1,5 @@
 import "./App.css";
+import MuiAvatar from "./components/MuiAvatar";
 
 // import MuiBottomNavigation from "./components/MuiBottomNavigation";
 // import MuiSpeedDial from "./components/MuiSpeedDial";
@@ -24,6 +25,7 @@ import "./App.css";
 function App() {
   return (
     <>
+    <MuiAvatar />
       {/* <MuiBottomNavigation /> */}
       {/* <MuiSpeedDial /> */}
       {/* <MuiDrawer /> */}
