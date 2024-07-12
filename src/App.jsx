@@ -23,19 +23,21 @@ import MuiSelect from "./components/MuiSelect";
 import MuiTextField from "./components/MuiTextField";
 import MuiButton from "./components/MuiButton";
 import MuiTypography from "./components/MuiTypography";
+import MuiCard2 from "./components/MuiCard2";
 
 
 function App() {
   return (
     <>
-    <MuiChip />
       <MuiList />
       <MuiBadge />
       <MuiAvatar />
+      <MuiChip />
+      <MuiCard2 />
       <MuiBottomNavigation />
       <MuiSpeedDial />
       <MuiDrawer />
-      <MuiNavbar /> 
+      <MuiNavbar />
       <MuiBreadCrumbs />
       <MuiLink />
       <MuiImageList />
@@ -47,7 +49,7 @@ function App() {
       <MuiSwitch />
       <MuiCheckbox />
       <MuiRadioButton />
-      <ChangeBgColor/>
+      <ChangeBgColor />
       <MuiSelect />
       <MuiTextField />
       <MuiButton />
